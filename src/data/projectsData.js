@@ -49,7 +49,7 @@ export const projectsData = [
         projectDesc: 'This project has a features like posting questions, likes, comments and get answers as well as answers can be posted in community page',
         tags: ['React', 'Firebase'],
         code: 'https://github.com/Lisanle1/StackOverFlow-Clone.git',
-        demo: 'https://stack-over-flow-clone-v1.vercel.app',
+        demo: 'https://stack-over-flow-clone-s1.vercel.app',
         image: six
     },
     {
