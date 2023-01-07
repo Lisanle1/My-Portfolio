@@ -13,7 +13,7 @@ export const projectsData = [
         projectDesc: 'This project about Simplifying the Customer can be buy product and manage them and make payment to get your door step devlivery.',
         tags: ['React','Redux' ,'Node js', 'Material ui', 'Razorpay'],
         code: 'https://github.com/Lisanle1/Flipkart-Clone.git',
-        demo: 'https://flipkart-clone-d927.vercel.app',
+        demo: 'https://flipkart-clone-v1.vercel.app',
         image: five
     },
     { 
