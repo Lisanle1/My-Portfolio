@@ -11,7 +11,7 @@ export const projectsData = [
         id: 1, 
         projectName: 'FlipKart Clone',
         projectDesc: 'This project about Simplifying the Customer can be buy product and manage them and make payment to get your door step devlivery.',
-        tags: ['React','Redux' ,'Node js', 'Material ui', 'Razorpay'],
+        tags: ['React','Redux' ,'Node js', 'Material ui', 'PayPal'],
         code: 'https://github.com/Lisanle1/Flipkart-Clone.git',
         demo: 'https://flipkart-clone-v1.vercel.app',
         image: five
@@ -49,7 +49,7 @@ export const projectsData = [
         projectDesc: 'This project has a features like posting questions, likes, comments and get answers as well as answers can be posted in community page',
         tags: ['React', 'Firebase'],
         code: 'https://github.com/Lisanle1/StackOverFlow-Clone.git',
-        demo: 'https://stack-over-flow-clone-s1.vercel.app',
+        demo: 'https://stackoverflow-clone-s1.vercel.app',
         image: six
     },
     {
