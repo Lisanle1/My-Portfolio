@@ -9,8 +9,8 @@ export const certificationData = [
       {
         id: 2,
         company: 'Guvi Geek Network Private Limited',
-        courseTitle: '15 Days Codekata Challenge',
-        startYear: '1 JAN 2023',
-        endYear: '15 JAN 2023'
+        courseTitle: 'Codekata Challenge',
+        startYear: '1-15',
+        endYear: 'JAN 2023'
     },
 ]
