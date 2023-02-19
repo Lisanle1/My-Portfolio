@@ -10,7 +10,7 @@ export const projectsData = [
     {
         id: 1, 
         projectName: 'FlipKart Clone',
-        projectDesc: 'This project about Simplifying the Customer can be buy product and manage them and make payment to get your door step devlivery.',
+        projectDesc: 'This project about Simplifying the Customer can be buy a product and add wishlist and make payment using PayPal to get your door step delivery.',
         tags: ['React','Redux' ,'Node js', 'Material ui', 'PayPal'],
         code: 'https://github.com/Lisanle1/Flipkart-Clone.git',
         demo: 'https://flipkart-clone-v1.vercel.app',
