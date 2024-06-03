@@ -9,7 +9,7 @@ import { socialsData } from '../../data/socialsData';
 import './Landing.css';
 
 import {
-  FaGithub, FaTwitter,
+  FaGithub, FaLink, FaLinkedin, FaTwitter,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -84,13 +84,13 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {socialsData.linkedin && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.linkedin}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaLinkedin
                                     className='landing--social twitter-icon'
                                     style={{ color: theme.primary }}
                                     aria-label='Twitter'

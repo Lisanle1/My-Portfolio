@@ -3,7 +3,7 @@ import { IconButton, Snackbar, SnackbarContent } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import React, { useContext, useRef, useState } from 'react';
 import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
-import { FaGithub, FaMediumM, FaStackOverflow, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaMediumM, FaStackOverflow, FaTwitter } from 'react-icons/fa';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { IoClose } from 'react-icons/io5';
@@ -295,6 +295,16 @@ function Contacts() {
                         </div>
 
                         <div className='socialmedia-icons'>
+                            {socialsData.linkedin && (
+                                <a
+                                    href={socialsData.linkedin}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaLinkedin aria-label='Twitter' />
+                                </a>
+                            )}
                             {socialsData.twitter && (
                                 <a
                                     href={socialsData.twitter}
